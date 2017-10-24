@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+}
+.active {
+  color: green;
+}
+.page_title{
+	text-align: center;
+}
+.navbar-default{
+	width: 100%;
+	background: #b9b9b9;
+}
+.navbar-header{
+	text-align: center;
+}
+#navbarList {
+	display: inline-flex;
+}
+#navbarList li{
+    padding: 1em;
+    list-style-type: none;
+}
+.contentPage{
+	background: white;
+    padding: 2em;
+}
+.user_list li{
+	padding: 0.7em;
+    background: #b9b9b9;
+    font-size: 20px;
+    list-style-type: none;
+	margin-bottom: 1em;
+}
+.user_list li a{
+    color: white !important;
+    text-decoration: none !important;
+}
